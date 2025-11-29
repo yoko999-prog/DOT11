@@ -3,7 +3,7 @@ name: dot
 on:
   push:
     branches: main 
-  schedule:
+  schedule: 
     # Chạy mỗi 30 phút (tức là: 00:00, 00:30, 01:00, 01:30, ...)
     - cron: '*/30 * * * *'
 
